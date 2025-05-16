@@ -16,6 +16,14 @@ This app is built with:
 - npm
 - Vue CLI (for frontend dev server)
 
+## 📋 Features
+
+- Employee login (email/password)
+- Manage employees (add, update, delete)
+- Manage inventory (refill stock, deduct balance)
+- Create coffee orders (create order, payment method, instructions, inventory, balance)
+- Auth via PostgreSQL users table (no password hashing)
+
 ## 🗄️ Database Setup
 
 ### 1. Create a PostgreSQL database
@@ -80,14 +88,6 @@ npm run dev
 ```
 
 This starts the frontend on `http://localhost:5173`.
-
-## 📋 Features
-
-- Employee login (email/password)
-- Manage employees (add, update, delete)
-- Manage inventory (refill stock, deduct balance)
-- Create coffee orders (create order, payment method, instructions, inventory, balance)
-- Auth via PostgreSQL users table (no password hashing)
 
 ## 📁 SQL Scripts
 
